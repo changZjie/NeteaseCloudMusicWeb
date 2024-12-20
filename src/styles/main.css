@@ -1,0 +1,50 @@
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  --at-apply: flex justify-center items-center;
+}
+
+/* html.dark {
+  background: #121212;
+  color-scheme: dark;
+} */
+
+#nprogress {
+  pointer-events: none;
+}
+
+#nprogress .bar {
+  background: rgb(252, 59, 87);
+  opacity: 0.75;
+  position: fixed;
+  z-index: 1031;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+}
+
+.overlayscrollbars-vue {
+  width: 100%;
+  height: calc(100% - 68px);
+  overflow: auto;
+}
+
+.os-theme-light {
+  margin-bottom: 12px;
+}
+
+.os-scrollbar-vertical .os-scrollbar-handle {
+  background-color: #e2e5e9;
+}
+
+.os-scrollbar-vertical .os-scrollbar-handle:hover {
+  background-color: #c3c8cf;
+  cursor: pointer;
+}
